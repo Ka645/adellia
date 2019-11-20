@@ -196,13 +196,70 @@ width: calc(50% - 20px);
 	right: 0;
 	bottom: 0;
 	text-align: center;
+
 	
-	background:  #669fa6;
+	background: rgba(136, 189, 195, 0.9);
 	padding: 20px;
 }
 .block-article .title a{
-	color: white;
+	color: #FFF;
 	text-decoration: none;
 	text-align: center;
-
+	font-family: "Roboto Thin", arial;
+	font-size: 24px;
+	visibility: visible;
+	text-transform: uppercase;
+	
+    
 }
+/**
+Partner
+**/
+#partner .title-style {
+	text-align: center;
+    text-transform: uppercase;
+    font-size: 26px;
+	
+	margin-bottom: 50px;
+	margin-top: 50px;
+	font-family: "Roboto Thin", arial;
+	color:rgb(9, 14, 15);
+
+	
+}
+#partner.image img{
+	width: 90px;
+	height: 90px;
+}
+#partner {
+	margin-top: 40px;
+}
+#partner ul{
+	text-align: center;
+	list-style: none;
+	margin: 0 -10px;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+#partner ul li{
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: calc(25% - 20px);
+}
+
+
+.block-partner{
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+
+
+
+
