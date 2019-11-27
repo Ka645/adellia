@@ -222,7 +222,8 @@ Partner
 	
 	margin-bottom: 50px;
 	margin-top: 50px;
-	font-family: "Roboto Thin", arial;
+	font-family:"Roboto Thin", arial; 
+	
 	color:rgb(9, 14, 15);
 
 	
@@ -243,6 +244,9 @@ Partner
 	flex-wrap: wrap;
 }
 #partner ul li{
+	display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
 	margin-bottom: 20px;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -256,10 +260,43 @@ Partner
 	flex-direction: column;
 	align-items: center;
 }
+/**
+footer
+**/
+
+.footer-top{
+    background: #88bdc3;
+	padding: 50px 0;
 
 
 
-
+}
+#main-footer{
+	background: #2b5e64;
+	padding-top: 50px;
+}
+#main-footer .copyright{
+	text-align: right;
+	font-size: 12px;
+	padding: 5px 0;
+}
+#main-footer .contact {
+	list-style: none;
+	margin: 10px;
+	padding: 0;
+	display: flex;
+    margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: calc(25% - 20px);
+    color: white;
+	text-transform: uppercase;
+	font-size: 20px;
+	
+	text-align: left;
+	font-family:"Roboto Thin", arial; 
+	
+}
 
 
 
