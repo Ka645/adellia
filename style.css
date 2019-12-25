@@ -303,6 +303,7 @@ Partner
 	left: 475px;
 	position: absolute;
 	width: 250px;
+	
 }
 
 
@@ -498,4 +499,42 @@ gallery
 #school-banner img{
 	width: 1583px;
 	height: 140px;
+}
+#flower .image{
+box-sizing: border-box;
+display: block;
+max-width: 100%;
+margin-top: 40px;
+margin-left: 60px;
+margin-right: 0px;
+margin-bottom: 40px;
+}  
+#flower .title-style {
+	
+color: #2b5e64;
+margin: 0 0 10px;
+display: flex;
+text-align: justify;
+}
+#flower .title{
+	color: #2b5e64;
+
+display: flex;
+text-align: left;
+margin-bottom:50px;
+}
+
+.text-description {
+	text-align: justify;
+	display: block;
+	color: #2b5e64;
+	margin-left: 60px;
+	
+}
+.red img{
+	display: flex;
+    width: auto;
+	height: auto;
+	border: 0;
+
 }
